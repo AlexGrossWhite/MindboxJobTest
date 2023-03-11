@@ -17,7 +17,7 @@
         public bool IsRight(params double[] args)
         {
             Array.Sort(args);
-            return Math.Pow(args[0], 2) + Math.Pow(args[1], 2) == Math.Pow(args[2], 2);
+            return args[0] * args[0] + args[1] * args[1] == args[2] * args[2];
         }
     }
 }
