@@ -1,5 +1,9 @@
 ﻿namespace Area_Calculator
 {
+     /*
+     Честно говоря не понял часть задания про вычисление площади фигуры без знания типа фигуры в compile-time,
+     решил сделать так.
+     */
     public class Unknown : IFigure
     {
         public double CalculateArea(params double[] args)
